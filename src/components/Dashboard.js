@@ -3,10 +3,9 @@ import useBookSearch from "../hooks/useBookSearch";
 import "../App.css";
 
 export default function App() {
-  const [query, setQuery] = useState(1);
   const [pageNumber, setPageNumber] = useState(1);
 
-  const { books, hasMore, loading, error } = useBookSearch(query, pageNumber);
+  const { books, hasMore, loading, error } = useBookSearch(5, pageNumber);
 
   const observer = useRef();
   const lastBookElementRef = useCallback(

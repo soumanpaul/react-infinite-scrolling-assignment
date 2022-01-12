@@ -9,7 +9,7 @@ export default function Login(props) {
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsLoading(true);
-    if (name === "foo" && pass == "bar") {
+    if (name === "foo" && pass === "bar") {
       props.handleLogin();
       setIserror(false);
     } else setIserror(true);
