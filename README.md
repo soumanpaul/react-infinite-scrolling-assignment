@@ -1,2 +1,1 @@
-### Infinite scrolling list in react
-"# react-infinite-scrolling-assignment" 
+# react-infinite-scrolling-assignment"
